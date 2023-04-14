@@ -70,7 +70,39 @@ const API = () => {
   return (
     <>
       <div>
-        <h1>Time Card Week Ending: {endDate}</h1>
+        <h1>Welcome to Calendar to Invoice Converter</h1>
+        <br></br>
+        <h2>Before you start</h2>
+        <p>
+          Step 1: To begin, please visit the provided link to obtain an Access
+          Token for yourself.
+        </p>
+        <a
+          href="https://developer.microsoft.com/en-us/graph/graph-explorer"
+          target="_blank"
+        >
+          <Button type="button" variant="contained" sx={{ height: "50px" }}>
+            Get Access Token
+          </Button>
+        </a>
+        <p>
+          Step 2: Once you have reached the website, navigate to the Outlook
+          Calendar section and ensure that the "Calendars.Read" access is
+          enabled.
+        </p>
+        <p>
+          Step 3: Lastly, copy the Access Token from the website and paste it
+          here to initiate the process.
+        </p>
+        <br></br>
+        <h3>
+          Choose a date range for which you would like to retrieve calendar
+          events, and witness the magic unfold. It's that simple.
+        </h3>
+        <p>
+          Once you have clicked on the "Get Data" button, proceed to the
+          Timesheet page and Invoice page to view the results.
+        </p>
         <br></br>
       </div>
       <form onSubmit={handleSubmit}>

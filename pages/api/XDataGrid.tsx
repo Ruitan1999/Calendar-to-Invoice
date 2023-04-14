@@ -30,7 +30,7 @@ export default function XDataGrid({ eventData }: any) {
         return {
           ...item,
           amount: 1,
-          rate: 500.00,
+          rate: 500.0,
           address: item.subject,
           date: dateInAustralia,
           day: day,
@@ -40,10 +40,8 @@ export default function XDataGrid({ eventData }: any) {
     }
   }, [eventData]);
 
-
-
   const columns: GridColDef[] = [
-    { field: "amount", headerName: "Regular Day", width: 150, editable: true },
+    // { field: "amount", headerName: "Regular Day", width: 150, editable: true },
     {
       field: "day",
       headerName: "Day",
@@ -58,7 +56,7 @@ export default function XDataGrid({ eventData }: any) {
     },
     {
       field: "address",
-      headerName: "Address",
+      headerName: "Event",
       width: 550,
       editable: true,
     },
@@ -93,7 +91,6 @@ export default function XDataGrid({ eventData }: any) {
           disableRowSelectionOnClick
         />
       </Box>
-    
     </>
   );
 }

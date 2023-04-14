@@ -8,7 +8,7 @@ const NavBar = () => {
       <header className={classes.header1}>
         <nav>
           <ul className={classes.list}>
-            <NavItem href="/" label="Yong M PTY LTD" />
+            <NavItem href="/" label="Home" />
             <NavItem href="/timesheet" label="Timesheet" />
             <NavItem href="/invoice" label="Invoice" />
           </ul>

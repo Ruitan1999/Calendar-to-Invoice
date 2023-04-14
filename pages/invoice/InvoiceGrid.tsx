@@ -46,14 +46,14 @@ const InvoiceGrid = () => {
   // create a new array called row with
   // amount of day worked, rates, description, linetotal
 
-  const linetotal = amountOfDayWorked * 500;
+  const linetotal = amountOfDayWorked * 300;
 
   const rows = [
     {
       id: Math.random(),
       amount: amountOfDayWorked,
-      description: "Fix Flush Ceiling",
-      unitprice: `$${500}`,
+      description: "Write Your Own",
+      unitprice: `$${300}`,
       linetotal: `$${linetotal}`,
     },
   ];
