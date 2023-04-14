@@ -1,0 +1,26 @@
+.index {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.invoice p{
+    text-align: end;
+    
+}
+
+
+.billing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    text-align: end;
+}

@@ -1,0 +1,31 @@
+.header1 {
+  margin-left: -39px;
+}
+
+
+  .list {
+    display: flex;
+    gap: 2rem;
+    font-size: 16px;
+    
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+
+
+  .list a{
+
+    text-decoration: none;
+    color: #000;
+
+  }
+
+  .list a:hover {
+    color: rgb(90, 154, 7);
+  }
+
+  .footer {
+    margin-top: 5rem;
+    text-align: center;
+  }

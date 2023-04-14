@@ -1,0 +1,18 @@
+.total {
+  text-align: end;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  text-align: end;
+}
